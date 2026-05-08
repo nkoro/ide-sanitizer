@@ -1,0 +1,10 @@
+{
+  "name": "IDE-Sanitizer Enterprise Sandbox",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install PyJWT cryptography",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
